@@ -12,12 +12,15 @@
           <h1>Conway's Game of Life</h1>
           <!-- Part One: Topbar. Title, Description, etc. -->
         <div class="sidebar">
-        <h2>This is the Sidebar</h2>
+        <h2>Sidebar</h2>
           <!-- Part Two: Sidebar. Options, Controls, etc. -->
             <button type="button" id="iterate-once">ITERATE ONCE</button>
             <button type="button" class="iteration" id="switch-iteration">START ITERATING</button>
             <button type="button" id="reset-iteration">RESET ITERATIONS</button>
             <button type="button" id="clear-field">CLEAR FIELD</button>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="200" value="100" class="slider" id="setSpeed">
+            </div>
         </div>
 
         <div class="main">
