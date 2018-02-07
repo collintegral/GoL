@@ -77,6 +77,7 @@ button {
     font-size: 28px;
     letter-spacing: 1.5px; 
     margin: 7px;
+    font-weight: bold;
 }
 
 .iteration {
